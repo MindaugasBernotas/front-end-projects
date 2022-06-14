@@ -1,7 +1,10 @@
-header {
+header, 
+main, 
+footer {
     display: inline-block;
-    width: 500px;
-    margin-left: calc((100% - 500px) / 2);
+    width: 1000px;
+    /* margin-left: calc((100% - 500px) / 2); */
+    margin: 0 calc(50% -500px);
     background-color: aqua;
 }
 img {
@@ -10,15 +13,18 @@ img {
 nav {
     float: right;
 }
+a {
+    text-decoration: none;
+    margin-right: 50px;
+}
+a:last-child {
+    margin: 0;
+}
 main {
-    display: inline-block;
-    width: 500px;
-    margin-left: calc((100% - 500px) / 2);
+   
     background-color: rgb(187, 255, 0);
 }
 footer {
-    display: inline-block;
-    width: 500px;
-    margin-left: calc((100% - 500px) / 2);
+    
     background-color: rgb(235, 16, 52);
 }

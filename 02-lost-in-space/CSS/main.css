@@ -7,9 +7,18 @@ header,
 main,
 footer {
     display: inline-block;
-    width: 500px;
-    margin: 0 calc(50% - 250px);
+    width: 1000px;
+    margin: 0 calc(50% - 500px);
 }
+
+body > * {
+    margin-bottom: 60px;
+}
+body > *:nth-last-child(2) {
+    margin-bottom: 0;
+}
+
+/* header style */
 
 img {
     float: left;
@@ -19,27 +28,31 @@ nav {
     float: right;
 }
 
-a {
+nav a {
     color: #333;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
-a:first-child {
+nav a:first-child {
     margin: 0;
 }
-a:hover {
+nav a:hover {
+    text-decoration: underline;
+    color: #649;
     cursor: pointer;
-    color: blue;
 }
+
+/* main style */
+main {
+}
+
+/* footer style */
 div {
     float: left;
 }
+div a {
+}
 p {
     float: right;
-    margin-top: 5px;
-}
-main {
-    margin-top: 60px;
-    margin-bottom: 40px;
 }

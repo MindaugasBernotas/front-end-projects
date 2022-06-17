@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    padding: 0.9em 2.1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 18px;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #649;
+    border: 0.1em solid #649;
+    border-radius: 1.5em;
+    box-shadow: 0 4px 8px #7778;
+    transition: all 0.3s;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #649;
+    box-shadow: 0 4px 12px #0008;
+}
+
+.btn.btn-white {
+    background-color: #fff;
+    color: #649;
+}
+.btn.btn-white:hover {
+    background-color: #649;
+    color: #fff;
+}

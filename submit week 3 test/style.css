@@ -11,6 +11,8 @@ body {
         sans-serif;
 }
 
+
+
 .container {
     display: flex;
     gap: 20px;
@@ -19,16 +21,52 @@ body {
     margin: 0 calc(50% - 500px) 60px;
 }
 
+.first > .box1 {
+    display: flex;
+    justify-content: center;
+    width:  150px;
+    height: 150px;
+    color: black;
+    background-color: rgb(30, 110, 110);
+}
+
 img {
     /* display: none; */
     /* border: 1px solid #ddd; */
-    background-color: rgb(4, 136, 136);
+    /* background-color: rgb(4, 136, 136);
     
-    padding: 8px;
+    padding: 8px; */
     width: 80px;
     
   }
+  .first > .box1 > .apple {
+    width: 70%;
+    justify-content: center;
+    /* flex-grow: 0.5; */
+    /* align-items: center;
+    text-align: center  */
 
+    /* display:none;  */
+    
+}
+.first > .box1 > .numberCircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(243, 0, 0);
+    color: #666;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
 h1{
     margin-top: 15px;
     margin-bottom: 20px;

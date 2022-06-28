@@ -7,19 +7,28 @@
 
 /* components */
 @import '../components/button.css';
-@import '../components/clock.css';
+/* @import '../components/clock-flex.css'; */
+@import '../components/clock-grid.css';
 @import '../components/form.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
+/* HERO SECTION - start */
 .hero {
     padding-bottom: 20px;
+    background-image: url(../../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 .hero > .row-short {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     gap: 20px;
 }
@@ -43,11 +52,127 @@
 .clock {
     margin: 40px 0;
 }
+/* HERO SECTION - end */
 
+/* MAIN SECTION - start */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+.right-column {
+    width: 40%;
+}
+.column-title {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.column-description {
+    font-size: 17px;
+    color: #777;
+}
+.column-description > a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.column-description > a:hover {
+    text-decoration: underline;
+}
+/* MAIN SECTION - end */
+
+/* FOOTER SECTION - start */
 footer.container {
     padding-top: 0;
+    text-align: center;
+    line-height: 1.6em;
+}
+.socials {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    border-bottom: 2px solid #fff;
+}
+.socials > a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.socials > a:hover {
+    background-color: #fff;
+    color: var(--main-color);
 }
 
+.footer-logo {
+    height: 40px;
+    width: 100%;
+    object-fit: contain;
+    margin: 40px 0;
+}
+
+.credits {
+    display: flex;
+    gap: 0 30px;
+    justify-content: center;
+    color: #fff8;
+}
+.credits > p {
+    position: relative;
+}
+.credits > p::after {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 16px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translate(50%, -50%);
+}
+.credits > p:last-child::after {
+    display: none;
+}
+.credits > p > a {
+    color: #fff;
+}
+
+.bottom-text {
+    color: #fff8;
+}
+.bottom-text > a {
+    color: #fff;
+}
+/* FOOTER SECTION - end */
+
+@media (max-width: 700px) {
+    .main-content {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .main-content > * {
+        width: 100%;
+    }
+
+    .credits {
+        flex-direction: column;
+    }
+    .credits > p::after {
+        display: none;
+    }
+}
 @media (max-width: 500px) {
     .main-title {
         font-size: 50px;

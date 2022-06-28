@@ -1,0 +1,26 @@
+.progress-bar {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+}
+.progress-bar > .top {
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar > .top > .label {
+}
+.progress-bar > .top > .value {
+}
+.progress-bar > .bottom {
+    height: 8px;
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.progress-bar > .bottom > .bar {
+    height: 100%;
+    width: 90%;
+    background-color: var(--main-color);
+}

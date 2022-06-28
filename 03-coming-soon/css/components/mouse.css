@@ -1,0 +1,48 @@
+.mouse {
+    font-size: 3px;
+    /* font-size: 20px; */
+    width: 10em;
+    height: 16em;
+    border: 1em solid #fff;
+    border-radius: 5.5em;
+    position: relative;
+}
+.mouse::before {
+    content: '';
+    width: 1em;
+    height: 1.6em;
+    /* width: 5em;
+    height: 5em; */
+    background-color: #fff;
+    position: absolute;
+    top: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background-image: url(../../img/5560-Mouse-grey.webp);
+    background-size: contain; */
+    animation-name: scroll;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-delay: 5s; */
+}
+/* .mouse:hover::before {
+    animation-play-state: paused;
+} */
+
+@keyframes scroll {
+    0% {
+        top: 2em;
+        opacity: 1;
+        /* transform: rotate(0deg); */
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        top: 10em;
+        opacity: 0;
+        /* transform: rotate(1440deg); */
+    }
+}

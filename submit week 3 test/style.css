@@ -30,26 +30,45 @@ body {
     background-color: rgb(30, 110, 110);
 }
 
+
 img {
-    /* display: none; */
-    /* border: 1px solid #ddd; */
-    /* background-color: rgb(4, 136, 136);
-    
-    padding: 8px; */
-    width: 80px;
-    
-  }
+      width: 80px;
+      }
+
   .first > .box1 > .apple {
     width: 70%;
     justify-content: center;
-    /* flex-grow: 0.5; */
-    /* align-items: center;
-    text-align: center  */
-
-    /* display:none;  */
     
 }
-.first > .box1 > .numberCircle {
+.second > .box2 {
+    display: flex;
+    justify-content: center;
+    width:  150px;
+    height: 150px;
+    color: black;
+    background-color: rgb(30, 110, 110);
+}
+
+.second > .box2 > .random {
+  width: 70%;
+  justify-content: center;
+}
+
+.third > .box3 {
+    display: flex;
+    justify-content: center;
+    width:  150px;
+    height: 150px;
+    color: black;
+    background-color: rgb(30, 110, 110);
+}
+
+.third > .box3 > .random {
+  width: 70%;
+  justify-content: center;
+}
+
+/* .first > .box1 > .numberCircle {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,7 +85,7 @@ img {
     text-align: center;
 
     font: 32px Arial, sans-serif;
-}
+} */
 h1{
     margin-top: 15px;
     margin-bottom: 20px;

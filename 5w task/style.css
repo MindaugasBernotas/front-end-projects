@@ -78,13 +78,14 @@ body {
     border-radius: 100px;
    
 }
-
+.button {
+    transition-duration: 0.4s;
+  }
 .button:hover {
-    background-color: #4CAF50; /* Green */
-    color: #00BE84;
+    background-color: rgb(61, 61, 250); /* Green */
   }
 
-.contact-form-control .mr2 input{
+.contact-form-control .adress input{
     width: 100%;
     background: #C7CDFD;
     /* display: none; */
@@ -105,4 +106,15 @@ h2{
 text-align: left;
 margin-top: 5px;
 color: #00BE84;
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .contact-form-control .contact-form input {
+        width: 100%;
+     
+        /* display: none; */
+
+  }
 }

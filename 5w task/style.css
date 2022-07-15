@@ -1,0 +1,79 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-color: rgb(164, 210, 255);
+}
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+h2{
+    text-align: left;
+}
+
+.contact-form-control{
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    color: rgb(189, 200, 255);
+}
+
+.contact-form-control .contact-form input {
+    padding: 10px;
+    width: 47%;
+    margin: 0 0 20px 0;
+    outline: none;
+    background: rgb(164, 210, 255);
+    color: blue;
+    border: 2px solid rgb(130, 145, 218);
+    border-radius: 8px;
+}
+.contact-form-control  textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    outline: none;
+    margin: 0 0 10px 0;
+}
+.mr input:nth-child(1) {
+    margin-right: 26px;
+    /* display: none; */
+}
+.contact-form-control button {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    padding: 10px 20px;
+    font-size: 18px;
+    background: blue;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 100px;
+
+    
+    
+}
+
+.contact-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* display: none; */
+}
+
+.wdt{
+    width: 50%;
+}

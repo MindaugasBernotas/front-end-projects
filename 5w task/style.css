@@ -4,10 +4,11 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 }
 body {
     background-color: rgb(164, 210, 255);
@@ -22,9 +23,7 @@ body {
     text-align: center;
 
 }
-h2{
-    text-align: left;
-}
+
 
 .contact-form-control{
     padding: 15px;
@@ -35,7 +34,7 @@ h2{
 .contact-form-control .contact-form input {
     padding: 10px;
     width: 47%;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     outline: none;
     background: rgb(164, 210, 255);
     color: blue;
@@ -50,30 +49,35 @@ h2{
     margin: 0 0 10px 0;
 }
 .mr input:nth-child(1) {
-    margin-right: 26px;
+    margin-right: 10px;
     /* display: none; */
 }
 .contact-form-control button {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
-    padding: 10px 20px;
-    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    font-size: 12px;
     background: blue;
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 100px;
-
-    
-    
+   
 }
-
+.contact-form-control .mr2 input{
+    width: 100%;
+    /* display: none; */
+         
+}
 .contact-text{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 /* display: none; */
 }
-
-.wdt{
-    width: 50%;
+h2{
+    text-align: left;
+}    
+        .wdt{
+    width: 100%;
+}
+.thanks {
+text-align: left;
+margin-top: 10px;
 }

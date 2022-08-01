@@ -10,23 +10,23 @@ _39 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/39-grupe-portfolio/
+https://github.com/MindaugasBernotas/front-end-projects/tree/master/04-portfolio-develop
 
-Design: http://www.innovationplans.com/idesign/daniels/particles.html
+Design: https://rstheme.com/products/html/braintech/index5.html
 
 ## Project features
 
--   Github pages
--   single-page
--   content rendering with JS
--   carousel
--   gallery
--   progress bar
--   fontawesome icons
--   CSS animations
--   CSS import
--   JS import-export
+- Github pages
+- single-page
+- content rendering with JS
+- carousel
+- gallery
+- progress bar
+- fontawesome icons
+- CSS animations
+- CSS import
+- JS import-export
 
 ## Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Mindaugas: [Github](https://github.com/MindaugasBernotas)

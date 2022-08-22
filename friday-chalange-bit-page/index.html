@@ -21,14 +21,16 @@
       <div class="logo_content">
         <div class="logo">
           <img src="./assets/images/logo.svg" alt="" />
-          <div class="logo_name">bitukas</div>
+          <!-- <div class="logo_name">bitukas</div> -->
         </div>
-        <img
+        <i class='bx bx-menu' id="btn" ></i>
+
+        <!-- <img
           class="bx bx-menu"
-          id="btn"
+          id="btnn"
           src="./assets/images/logo.svg"
           alt=""
-        />
+        /> -->
       </div>
       <!-- Use the <ul> tag together with the <li> tag to create unordered lists. -->
       <ul class="nav_list">
@@ -36,45 +38,54 @@
            <i class="bx bx-search"></i>
 
             <input type="text" placeholder="Search..." />
-          </a>
-          <!-- <span class="links_name">Home</span> -->
+          
+          <span class="tooltip">Search</span>
         </li>
         <li>
           <a href="#">
             <i class="bx bxs-home"></i>
             <span class="links_name">Home</span>
           </a>
-          <!-- <span class="links_name">Home</span> -->
+          <span class="tooltip">Home</span>
         </li>
         <li>
           <a href="#">
             <i class='bx bxs-calendar' ></i>
             <span class="links_name">Calendar</span>
           </a>
-          <!-- <span class="links_name">Home</span> -->
+          <span class="tooltip">Calendar</span>
         </li>
         <li>
           <a href="#">
             <i class='bx bx-minus-front'></i>
             <span class="links_name">Front End</span>
           </a>
-          <!-- <span class="links_name">Home</span> -->
+          <span class="tooltip">Front End</span>
         </li>
         <li>
           <a href="#">
             <i class='bx bxs-game' ></i>
             <span class="links_name">Games</span>
           </a>
-          <!-- <span class="links_name">Home</span> -->
+          <span class="tooltip">Games</span>
         </li>
       </ul>
       <div class="profile_content">
         <div class="profile">
           <div class="profile_details">
-            <img src="" alt="">
-          </div>
+            <img src="./assets/images/22314301.jpg" alt="">
+            <div class="name_job">
+            <div class="name">Mindaugas Bernotas</div>
+            <div class="job">React scientist</div>
+           </div>
         </div>
+        <i class='bx bx-log-out' id="log_out" ></i>
       </div>
     </div>
+    <div class="home_content">
+      <div class="text">Home content</div>
+    </div>
+
+    <script src="./js/sidebar/sidebar.js"></script>
   </body>
 </html>

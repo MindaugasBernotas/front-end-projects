@@ -11,5 +11,10 @@ body {
 }
 
 body {
+  position: relative;
+  min-height: 100vh;
   background-color: #ebeef5;
+  width: 100%;
+  /* The overflow is clipped, and the rest of the content will be invisible */
+  overflow: hidden;
 }

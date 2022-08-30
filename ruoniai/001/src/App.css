@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+.App button {
+  color: rgb(94, 94, 94);
+  padding: 50px;
+  gap: 10px;
+  margin-left: 10px;
+  border-radius: 30px;
+  border-color: cadetblue;
+}

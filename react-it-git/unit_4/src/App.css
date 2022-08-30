@@ -1,0 +1,20 @@
+#root {
+  margin: 40px auto;
+  max-width: 1000px;
+  background: rgb(179, 179, 179);
+  padding: 10px;
+}
+
+.test {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  margin: 10px;
+}
+
+.test2 {
+  width: 100px;
+  height: 100px;
+  background: rgb(70, 26, 131);
+  margin: 10px;
+}
